@@ -53,7 +53,7 @@ while (isTypingText != document.getElementsByClassName(subTitleTextClassName)[0]
 */
 // The code above was change for a better implementation using setInterval
 interval = setInterval(function(){
-		if (isTypingText == document.getElementsByClassName(subTitleTextClassName)[0].title) {
+		if (isTypingText == document.getElementsByClassName(subTitleTextClassName)[0].title || 'is typing…' == document.getElementsByClassName(subTitleTextClassName)[0].title) {
 			
 			sendMessage(message);
 			console.log('Message sent.');
