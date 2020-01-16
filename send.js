@@ -34,12 +34,15 @@ function sendMessage (message) {
 	document.querySelector(buttonQuery).click();
 }
 
-message = "You're typing";
+message = "You're typing"; // A nice message to autosend. Modify it.
 
-contactName = 'Mishell';
+contactName = 'Mishell'; // The contact name. Modify it.
+
 isTypingText = contactName +  ' is typing…';
 
 subTitleTextClassName = '_315-i _F7Vk'; // behind the contact name. The area where 'typing...' is displayed.
+
+
 
 /*while the text is not 'contactName is typing…' just keep in the loop.
 When the contact starts typing (the text is iqual) the loop ends and the code continues.*/
